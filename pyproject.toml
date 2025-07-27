@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "endtoend_haystack_fastapi"
+version = "0.1.0"
+authors = [
+    {name = "Chirag Singhvi", email = "csinghvi15@gmail.com"}
+]
+description = "End-to-End Haystack FastAPI application"
+dependencies = [
+    "pinecone-haystack",
+    "haystack-ai",
+    "fastapi[standard]",
+    "uvicorn",
+    "python-dotenv",
+    "pathlib",
+]
+
+[tool.setuptools.packages.find]
+include = ["QA_System*"]
+
+[tool.setuptools.package-data]
+"*" = ["templates/*", "data/*"]

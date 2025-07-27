@@ -1,0 +1,10 @@
+pyproject.toml
+QA_System/__init__.py
+QA_System/ingestion.py
+QA_System/retrieval_generation.py
+QA_System/utils.py
+endtoend_haystack_fastapi.egg-info/PKG-INFO
+endtoend_haystack_fastapi.egg-info/SOURCES.txt
+endtoend_haystack_fastapi.egg-info/dependency_links.txt
+endtoend_haystack_fastapi.egg-info/requires.txt
+endtoend_haystack_fastapi.egg-info/top_level.txt

@@ -1,0 +1,11 @@
+Metadata-Version: 2.4
+Name: endtoend_haystack_fastapi
+Version: 0.1.0
+Summary: End-to-End Haystack FastAPI application
+Author-email: Chirag Singhvi <csinghvi15@gmail.com>
+Requires-Dist: pinecone-haystack
+Requires-Dist: haystack-ai
+Requires-Dist: fastapi[standard]
+Requires-Dist: uvicorn
+Requires-Dist: python-dotenv
+Requires-Dist: pathlib
