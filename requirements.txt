@@ -1,7 +1,10 @@
 pinecone-haystack
 haystack-ai
+sentence-transformers
 fastapi[standard]
 uvicorn
+pypdf
+ipywidgets
 python-dotenv
 pathlib
 

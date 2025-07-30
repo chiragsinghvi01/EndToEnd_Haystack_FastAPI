@@ -4,6 +4,9 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
+HF_API_TOKEN = os.getenv("HF_API_TOKEN")
+os.environ["HF_API_TOKEN"] = HF_API_TOKEN
+
 PINECONE_API_KEY = os.getenv("PINECONE_API_KEY")
 os.environ["PINECONE_API_KEY"] = PINECONE_API_KEY
 
@@ -11,7 +14,7 @@ print("Pinecone API Key set successfully.")
 
 def pinecone_config():
     document_store = PineconeDocumentStore(
-        index_name="default",
+        index="default",
         namespace="default",
         dimension=768,
     )
