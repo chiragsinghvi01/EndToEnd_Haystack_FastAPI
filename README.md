@@ -61,3 +61,8 @@ User Question → FastAPI → Embedding → Pinecone → Retrieved Docs → LLM 
               Web Interface
 ```
 
+## 👨‍💻 Author
+
+**Chirag Singhvi**
+- Email: csinghvi15@gmail.com
+- GitHub: [@chiragsinghvi01](https://github.com/chiragsinghvi01)
